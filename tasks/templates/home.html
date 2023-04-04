@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<main class="container py-5">
+    <section class="card card-body">
+    
+        <h1 class="display-3 text-center">Welcome to the Task App</h1>
+        <p>Here you will be able to take notes from your daily tasks, providing a title, description, and marking them as important.
+        </p>
+        <p>
+            You will be able to look at your pending tasks, and at your completed tasks as well. 
+        </p>
+        <p>
+            Created by Alexis Rodriguez
+        </p>
+
+        <div class="text-center">
+
+            <a class="btn btn-secondary" href="/signin/">
+                Signin
+            </a>
+            <a class="btn btn-primary" href="/signup/">
+                Signin
+            </a>
+        </div>
+    </section>
+</main>
+{% endblock %}
